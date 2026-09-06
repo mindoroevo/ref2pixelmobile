@@ -194,6 +194,10 @@
         <nav class="lang-note" aria-label="Language / Sprache">
           <a href="#en" lang="en">English</a> · <a href="#de" lang="de">Deutsch</a>
         </nav>
+        <nav class="lang-note" aria-label="Legal information / Rechtliche Informationen">
+          <span lang="en"><a href="#en">Privacy</a> · <a href="#terms-en">Terms</a> · <a href="#withdrawal-en">Withdrawal &amp; refunds</a></span><br>
+          <span lang="de"><a href="#de">Datenschutz</a> · <a href="#terms-de">AGB</a> · <a href="#withdrawal-de">Widerruf &amp; Erstattung</a></span>
+        </nav>
         <p>Updated / Stand: <time datetime="2026-09-06">2026-09-06</time></p>
       </section>
 
@@ -207,9 +211,10 @@
 
         <h3>2. Data processed locally on the device</h3>
         <p>The app does not automatically upload your project images to our Firebase services or to AdMob. Exporting and sharing are initiated by you; your chosen recipient may process shared files under its own rules.</p>
+        <p>Automatic recovery backups help prevent data loss and remain local. They do not replace your own backup outside the app. Opening a preview alone does not create an export file.</p>
         <p>No separate app account is required. Local settings, a randomly generated installation identifier and unlocks are kept in device storage.</p>
         <ul>
-          <li>locally stored projects, layers, frames and palettes</li>
+          <li>locally stored projects, layers, frames, palettes and automatic recovery backups</li>
           <li>local app settings such as language, display and workflow options</li>
           <li>locally stored information about the unlock status of free or premium features</li>
           <li>files intentionally exported by the user, such as PNG, GIF, JSON or spritesheets</li>
@@ -228,6 +233,7 @@
         <h3>4. Purpose and legal basis of processing</h3>
         <p>Where processing is necessary to provide the app or premium features, it is based on Art. 6(1)(b) GDPR.</p>
         <p>Where technical protection, abuse prevention or system stability are necessary, processing is based on Art. 6(1)(f) GDPR. Our legitimate interest is secure operation and protection against unauthorized use.</p>
+        <p>When you contact us, we process your email address, message and voluntarily provided attribution details to handle your request. The legal basis is Art. 6(1)(b) GDPR for contractual questions, Art. 6(1)(c) GDPR for statutory privacy obligations and our legitimate interest in answering other requests under Art. 6(1)(f) GDPR. Communication uses our email service Google Gmail. Request data is needed for processing the request and any applicable statutory recordkeeping or retention obligations.</p>
         <p>Consent-dependent advertising processing is based on Art. 6(1)(a) GDPR. Consent is also obtained where required for storing or accessing information on your device. Technically necessary storage serves the function you requested.</p>
         <ul>
           <li>providing the app&#39;s drawing, storage and export features</li>
@@ -239,6 +245,7 @@
 
         <h3>5. Service providers used</h3>
         <p>We use Google Firebase for backend and status functions and Google Play for purchases. Advertising also involves Google AdMob, UMP and the advertising partners listed in the applicable privacy message. You can review the partners and purposes in the ad privacy options.</p>
+        <p>The app communicates with our Firebase backend over HTTPS. Google describes TLS-protected transmission for its advertising SDK. Server administration uses authorised operator access. Local projects are kept in app storage; intentionally exported files depend on the safeguards of the selected destination. Absolute protection against device loss or unauthorised device access cannot be guaranteed.</p>
         <p>Google services may process data outside the EEA, particularly in the United States. Google describes its service-specific transfer mechanisms and safeguards, such as adequacy decisions and standard contractual clauses, in the information linked below. Our Cloud Functions are configured for europe-west3; this does not mean that all Google processing takes place exclusively in Germany.</p>
         <p><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a></p>
         <p><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Privacy at Firebase</a></p>
@@ -255,7 +262,8 @@
         <p>The same applies when you open external websites or store pages from the app, especially the linked imprint or pages about the provider&#39;s own offers.</p>
 
         <h3>8. Storage period and control</h3>
-        <p>Uninstalling or clearing local app data does not automatically delete purchase data at Google Play or status data in our backend. Please contact us to request deletion of server-side data. Further retention may be necessary where statutory retention obligations or the establishment, exercise or defence of legal claims require it.</p>
+        <p>Uninstalling or clearing local app data does not automatically delete purchase data at Google Play or status data in our backend. Under Privacy in the app you can prepare a deletion request with your existing installation identifier. You must send it yourself in your email app. Without access to the app, contact us directly; providing an identifier is not a prerequisite for exercising your rights. Reasonable additional information may be needed for secure attribution. Do not send passwords, full payment details or purchase tokens.</p>
+        <p>Deletion requests are handled after checking their scope and authority. Further retention may be necessary for statutory retention obligations or the establishment, exercise or defence of legal claims; we will explain this in the individual case. Deletion does not replace a refund or cancellation of an existing Google Play subscription. Using the app, verifying or restoring a purchase again may recreate the status data necessary for that purpose.</p>
         <p>UMP stores privacy choices and updates them when necessary. Retention of data processed by Google and other advertising partners also depends on their respective purposes and privacy information.</p>
         <ul>
           <li>local project data stays on the device until you delete it yourself or uninstall the app</li>
@@ -265,7 +273,7 @@
         </ul>
 
         <h3>9. Advertising, consent and optional unlocks</h3>
-        <p>The free Android version uses Google AdMob for home-screen banners, occasional fullscreen ads after successful manual saves, and optional ads that unlock individual steps. Autosave never triggers ads. No ads are requested while Pro access is active.</p>
+        <p>The free Android version uses Google AdMob for home-screen banners, occasional fullscreen ads after successful manual saves or when switching between the project overview, editor and Tileset Studio in either direction, and optional ads that unlock individual steps. Autosave and individual drawing actions never trigger ads. No ads are requested while Pro access is active.</p>
         <p>Depending on the advertising mode and settings, the Google Mobile Ads SDK processes IP addresses (also to infer an approximate location), device and advertising identifiers such as Android advertising ID and app set ID, account-related identifiers where applicable, app and ad interactions, and diagnostic and performance data. This serves ad delivery, advertising measurement and fraud prevention. Our ad integration does not send project images to AdMob.</p>
         <p>Before requesting ads, the app checks Google&#39;s User Messaging Platform status and shows required consent forms. Available privacy options can be reopened via Ad privacy on the home screen or unlock dialog. Consent-dependent processing requires the corresponding consent.</p>
         <p>You can change or withdraw consent for the future through the available ad privacy options. This does not affect the lawfulness of processing before withdrawal. Depending on your region and choices, limited ads or no ads may be available. Free drawing tools and saved projects remain usable; an ad-based unlock may be unavailable if no ad is available.</p>
@@ -283,6 +291,83 @@
         <p>The public privacy website is hosted on GitHub Pages. When you visit it, GitHub processes technical data, particularly your IP address, to provide and secure the service. Visiting the website is separate from viewing this policy locally in the app.</p>
         <p>The website itself contains no advertising or analytics scripts added by us. Our interest in providing it is secure, publicly accessible information about data processing (Art. 6(1)(f) GDPR). GitHub&#39;s privacy statement provides further information about its processing and international transfers.</p>
         <p><a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub Privacy Statement</a></p>
+        <p><a href="mailto:mindoro.evolution@gmail.com">Privacy or deletion request by email</a></p>
+        <p><a href="https://mindoroevo.github.io/mindoro_imp/impressum.html" target="_blank" rel="noopener noreferrer">Imprint</a></p>
+      </section>
+
+      <section class="section" id="terms-en" lang="en" aria-labelledby="title-terms-en">
+        <h2 id="title-terms-en">English – Terms of Use</h2>
+        <p>These terms govern the use of the Mindoro Pixel Studio app.</p>
+        <p>The app provider is Mindoro Evolution – sole proprietorship, owner David Albrecht. Address and contact details are in the imprint. These terms apply where validly agreed. Before a new Pro purchase, you can read and expressly accept them; existing rights are not restricted retroactively.</p>
+        <h3>1. Scope</h3>
+        <p>Mindoro Pixel Studio is a creative tool for creating, editing and exporting pixel graphics, animations, reference projects and related project files.</p>
+
+        <h3>2. Permitted use</h3>
+        <ul>
+          <li>use for private, creative, educational or business projects within the limits of applicable law</li>
+          <li>no use for unlawful, abusive or infringing content</li>
+          <li>no misuse to bypass technical or legal protection mechanisms</li>
+        </ul>
+
+        <h3>3. Rights to content</h3>
+        <p>You remain responsible for any content you create, import, store or export with the app.</p>
+        <p>Rights to your own works remain yours. Using the app alone does not transfer exploitation rights in your projects to us. Third-party rights and the licences of any templates used still apply.</p>
+        <p>You must ensure that you hold the necessary rights to any templates, images, trademarks or other content you use.</p>
+
+        <h3>4. License to use the app</h3>
+        <p>You are granted a simple, non-exclusive and non-transferable right to use the app within the scope of these terms.</p>
+        <p>Unless expressly permitted by law, resale, rental or unlawful decompilation of the app is not allowed.</p>
+
+        <h3>5. Availability and changes</h3>
+        <p>The app is provided in its current version. Mandatory statutory rights, including legally required updates for paid digital products, remain unaffected.</p>
+        <p>Features, the user interface and supported platforms may be further developed or changed for legitimate reasons, including security, legal, compatibility or abuse-prevention reasons, provided that this does not result in additional costs and that statutory information and consumer rights are respected.</p>
+        <p>Paid unlocks remain available to the extent described at the time of purchase, except where a change is permitted by applicable law.</p>
+
+        <h3>6. Pro Lifetime, expansion packs, creator codes and purchases</h3>
+        <p>Some features may be offered as optional paid add-on features. There is no entitlement to free access to such additional features.</p>
+        <p>On Android, selected features may alternatively be unlocked through optional ads. The exact reward is shown before viewing: a workspace for the app session or one advanced export. Export passes are consumed only after a successful save. Ad availability is not guaranteed; core tools and saved projects remain usable without watching an ad. Pro includes no ads.</p>
+        <p>Pro Lifetime is a one-time, non-consumable in-app purchase through Google Play. It permanently unlocks the Pro features described as included in the app or store at the time of purchase; no recurring charges apply.</p>
+        <p>New, clearly separately offered expansion packs or additional content are not automatically included in Pro Lifetime unless this is expressly stated for the relevant offer.</p>
+        <p>New subscriptions are not currently offered. For subscriptions concluded before the change, the terms displayed at the time of conclusion continue to apply until they end.</p>
+        <p>Creator codes, creator-related discounts, promotions or bonus models are voluntary additional offers. There is no entitlement to their continued availability, unchanged terms or permanent redeemability.</p>
+        <p>The provider may change, end, block or technically review creator codes, discount models or bonus models for objective reasons, in particular in cases of misuse, errors, incorrect attribution or changes to the offer model.</p>
+        <p>The price and scope displayed in the app and on Google Play before purchase are decisive for an in-app purchase. A one-time purchase can be restored with the Google account used for the purchase, provided that Google Play makes the purchase history available.</p>
+        <p>Where purchases, restorations, refunds or existing subscriptions are handled through an app store, the contractual, billing and refund terms of the respective platform operator also apply.</p>
+
+        <h3>7. Liability</h3>
+        <p>Liability is governed by applicable statutory law. These terms do not introduce additional exclusions or limitations of liability.</p>
+        <p>You should keep your own backups of important projects and exports. Continuous availability and complete freedom from data loss cannot be guaranteed technically.</p>
+
+        <h3>8. External services and links</h3>
+        <p>External websites, platforms and services have their own providers&#39; terms. This does not affect our own statutory obligations or your statutory claims.</p>
+        <p>This applies in particular to app stores, shared export targets, store pages for premium offers and the linked imprint.</p>
+
+        <h3>9. Consumer protection</h3>
+        <p>Mandatory statutory consumer rights, including rights relating to defects, required updates and changes to digital products, remain unaffected.</p>
+        <p>Information about withdrawal and refunds is available through the corresponding link in the Pro dialog and on our legal website. Statutory claims are not excluded by ad unlocks, acceptance of these terms or use of the app.</p>
+        <p>We are neither obliged nor willing to participate in dispute resolution proceedings before a consumer arbitration board. Access to the courts remains unaffected.</p>
+        <p>If a provision of these terms is invalid, the statutory rules apply.</p>
+
+        <p><a href="https://mindoroevo.github.io/mindoro_imp/impressum.html" target="_blank" rel="noopener noreferrer">Imprint</a></p>
+      </section>
+
+      <section class="section" id="withdrawal-en" lang="en" aria-labelledby="title-withdrawal-en">
+        <h2 id="title-withdrawal-en">English – Withdrawal and refunds</h2>
+        <p>Pro is purchased exclusively through Google Play in this app. Here you can find information about your rights and the relevant contact routes.</p>
+        <h3>1. Google Play purchases</h3>
+        <p>Regional Play terms and purchase documents apply to Google Play purchases. In the EEA, Google identifies Google Commerce Limited as the contracting party for content offered there. Check your order receipt for the details of your particular purchase.</p>
+        <p><a href="https://play.google.com/about/play-terms/" target="_blank" rel="noopener noreferrer">Google Play: purchase terms</a></p>
+
+        <h3>2. Statutory right of withdrawal</h3>
+        <p>Consumers generally have a 14-day withdrawal right for distance contracts for digital content under applicable EEA law. For paid digital content, this right may end early when provision begins if you have expressly agreed to an early start, acknowledged the loss of the right and received the legally required contract confirmation. The statutory requirements and the actual purchase process are decisive.</p>
+        <p>Accepting our terms in the app is not consent to personalised advertising and does not waive your withdrawal right. Any declarations about immediate provision are handled separately during checkout.</p>
+        <p><a href="https://www.gesetze-im-internet.de/bgb/__356.html" target="_blank" rel="noopener noreferrer">Section 356 of the German Civil Code (German)</a></p>
+
+        <h3>3. Request withdrawal or a refund</h3>
+        <p>For a Google Play purchase, use the refund route below or the contact listed in your receipt. For help identifying a purchase or resolving technical issues, contact mindoro.evolution@gmail.com. Share only the order details needed, not passwords or purchase tokens.</p>
+        <p>Additional Google Play refund options do not replace statutory rights. Statutory claims for defective products remain unaffected. Outside the EEA, applicable local rules also determine rights and contact routes. A refund request does not guarantee a refund.</p>
+        <p><a href="https://support.google.com/googleplay/answer/2479637?hl=en" target="_blank" rel="noopener noreferrer">Google Play: refunds and contact</a></p>
+
         <p><a href="https://mindoroevo.github.io/mindoro_imp/impressum.html" target="_blank" rel="noopener noreferrer">Imprint</a></p>
       </section>
 
@@ -296,9 +381,10 @@
 
         <h3>2. Lokal auf dem Gerät verarbeitete Daten</h3>
         <p>Die App lädt deine Projektbilder nicht automatisch zu unseren Firebase-Diensten oder zu AdMob hoch. Exportieren und Teilen erfolgen auf deine Veranlassung; der von dir gewählte Empfänger verarbeitet die geteilten Dateien gegebenenfalls nach eigenen Regeln.</p>
+        <p>Automatische Wiederherstellungssicherungen dienen dem Schutz vor Datenverlust und bleiben lokal. Sie ersetzen keine eigene Sicherung außerhalb der App. Aus der Vorschau allein wird noch keine Exportdatei erstellt.</p>
         <p>Für die Nutzung ist kein eigenes App-Konto erforderlich. Lokale Einstellungen, eine zufällig erzeugte Installationskennung und Freischaltungen werden im Gerätespeicher abgelegt.</p>
         <ul>
-          <li>lokal gespeicherte Projekte, Ebenen, Frames und Paletten</li>
+          <li>lokal gespeicherte Projekte, Ebenen, Frames, Paletten und automatische Wiederherstellungssicherungen</li>
           <li>lokale App-Einstellungen wie Sprache, Anzeige- und Arbeitsoptionen</li>
           <li>lokal gespeicherte Hinweise zum Freischaltstatus von Gratis- oder Premium-Funktionen</li>
           <li>vom Nutzer bewusst exportierte Dateien wie PNG, GIF, JSON oder Spritesheets</li>
@@ -317,6 +403,7 @@
         <h3>4. Zweck und Rechtsgrundlagen der Verarbeitung</h3>
         <p>Soweit die Verarbeitung zur Bereitstellung der App oder von Premium-Funktionen erforderlich ist, erfolgt sie auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO.</p>
         <p>Soweit eine technische Absicherung, Missbrauchsvermeidung oder Systemstabilität erforderlich ist, erfolgt die Verarbeitung auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse besteht am sicheren Betrieb und am Schutz vor unberechtigter Nutzung.</p>
+        <p>Wenn du uns kontaktierst, verarbeiten wir deine E-Mail-Adresse, den Inhalt und freiwillig mitgeteilte Zuordnungsangaben zur Bearbeitung. Rechtsgrundlage ist bei Vertragsfragen Art. 6 Abs. 1 lit. b DSGVO, bei der Erfüllung gesetzlicher Datenschutzpflichten Art. 6 Abs. 1 lit. c DSGVO und bei sonstigen Anfragen unser berechtigtes Interesse an deren Beantwortung gemäß Art. 6 Abs. 1 lit. f DSGVO. Die Kommunikation erfolgt über unseren E-Mail-Dienst Google Gmail. Anfragedaten werden so lange benötigt, wie die Bearbeitung und gegebenenfalls gesetzliche Nachweis- oder Aufbewahrungspflichten es erfordern.</p>
         <p>Einwilligungsabhängige Werbeverarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO. Soweit für das Speichern oder Auslesen von Informationen auf deinem Gerät eine Einwilligung erforderlich ist, wird diese ebenfalls eingeholt. Technisch notwendige Speicherung dient der von dir angeforderten Funktion.</p>
         <ul>
           <li>Bereitstellung der Zeichen-, Speicher- und Exportfunktionen der App</li>
@@ -328,6 +415,7 @@
 
         <h3>5. Eingesetzte Dienstleister</h3>
         <p>Wir nutzen Google Firebase für Backend- und Statusfunktionen sowie Google Play für Käufe. Bei Werbung kommen Google AdMob, UMP und die in der jeweiligen Datenschutzmitteilung aufgeführten Werbepartner hinzu. Die Partner und Zwecke kannst du in den Werbe-Datenschutzoptionen einsehen.</p>
+        <p>Die App kommuniziert mit unserem Firebase-Backend über HTTPS. Google beschreibt für das Werbe-SDK eine TLS-geschützte Übertragung. Serverseitige Verwaltungszugriffe werden über berechtigte Betreiberzugänge abgewickelt. Lokale Projekte liegen im App-Speicher; bewusst exportierte Dateien unterliegen den Schutzmaßnahmen des gewählten Speicherorts. Ein absoluter Schutz vor Geräteverlust oder unberechtigten Gerätezugriffen kann nicht zugesichert werden.</p>
         <p>Google-Dienste können Daten außerhalb des EWR, insbesondere in den USA, verarbeiten. Google beschreibt die je nach Dienst eingesetzten Übermittlungsgrundlagen und Schutzmechanismen, etwa Angemessenheitsbeschlüsse und Standardvertragsklauseln, in den unten verlinkten Informationen. Unsere Cloud Functions sind für europe-west3 konfiguriert; dies bedeutet nicht, dass sämtliche Google-Verarbeitung ausschließlich in Deutschland stattfindet.</p>
         <p><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google-Datenschutzerklärung</a></p>
         <p><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Datenschutz bei Firebase</a></p>
@@ -344,7 +432,8 @@
         <p>Dasselbe gilt, wenn du aus der App heraus externe Webseiten oder Store-Seiten öffnest, insbesondere das verlinkte Impressum oder Seiten zu eigenen Angeboten des Anbieters.</p>
 
         <h3>8. Speicherdauer und Kontrolle</h3>
-        <p>Eine Deinstallation oder das Löschen lokaler App-Daten löscht nicht automatisch Kaufdaten bei Google Play oder Statusdaten in unserem Backend. Für eine Anfrage zur Löschung serverseitiger Daten kontaktiere uns bitte. Soweit gesetzliche Aufbewahrungspflichten oder die Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen entgegenstehen, kann die weitere Speicherung erforderlich sein.</p>
+        <p>Eine Deinstallation oder das Löschen lokaler App-Daten löscht nicht automatisch Kaufdaten bei Google Play oder Statusdaten in unserem Backend. Unter Datenschutz in der App kannst du eine Löschanfrage mit deiner vorhandenen Installationskennung vorbereiten. Die Anfrage wird erst durch dich in deinem E-Mail-Programm versendet. Ohne Zugriff auf die App kannst du uns direkt kontaktieren; eine Kennung ist keine Voraussetzung für die Ausübung deiner Rechte. Zur sicheren Zuordnung können angemessene weitere Angaben erforderlich sein. Bitte sende keine Passwörter, vollständigen Zahlungsdaten oder Kauf-Token.</p>
+        <p>Löschanfragen werden nach Prüfung des Umfangs und der Berechtigung bearbeitet. Soweit gesetzliche Aufbewahrungspflichten oder die Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen entgegenstehen, kann die weitere Speicherung erforderlich sein; darüber informieren wir dich im konkreten Fall. Eine Löschung ersetzt weder eine Erstattung noch die Kündigung eines bestehenden Google-Play-Abonnements. Erneute Nutzung, Kaufprüfung oder Wiederherstellung kann die dafür notwendigen Statusdaten erneut erzeugen.</p>
         <p>Einwilligungsentscheidungen werden durch UMP gespeichert und bei Bedarf aktualisiert. Die Speicherdauer der von Google und weiteren Werbepartnern verarbeiteten Daten richtet sich zusätzlich nach deren jeweiligen Zwecken und Datenschutzinformationen.</p>
         <ul>
           <li>lokale Projektdaten bleiben auf dem Gerät, bis du sie selbst löschst oder die App deinstallierst</li>
@@ -354,7 +443,7 @@
         </ul>
 
         <h3>9. Werbung, Einwilligung und freiwillige Freischaltungen</h3>
-        <p>Die kostenlose Android-Version verwendet Google AdMob für Banner auf der Startseite, gelegentliche Vollbildanzeigen nach erfolgreichem manuellem Speichern sowie freiwillige Anzeigen zur Freischaltung einzelner Arbeitsschritte. Automatisches Speichern löst keine Anzeige aus. Mit aktivem Pro-Status werden keine Anzeigen angefordert.</p>
+        <p>Die kostenlose Android-Version verwendet Google AdMob für Banner auf der Startseite, gelegentliche Vollbildanzeigen nach erfolgreichem manuellem Speichern oder beim Wechsel zwischen Projektübersicht, Editor und Tileset Studio in beide Richtungen sowie freiwillige Anzeigen zur Freischaltung einzelner Arbeitsschritte. Automatisches Speichern und einzelne Zeichenaktionen lösen keine Anzeige aus. Mit aktivem Pro-Status werden keine Anzeigen angefordert.</p>
         <p>Das Google Mobile Ads SDK verarbeitet je nach Anzeigenmodus und Einstellungen IP-Adressen (auch zur Ableitung einer ungefähren Position), Geräte- und Werbekennungen wie Android-Werbe-ID und App-Set-ID, gegebenenfalls kontobezogene Kennungen, App- und Anzeigeninteraktionen sowie Diagnose- und Leistungsdaten. Dies dient der Anzeigenbereitstellung, Werbemessung und Betrugsprävention. Projektbilder werden von unserer Werbeintegration nicht an AdMob übermittelt.</p>
         <p>Vor Anzeigenanfragen prüft die App den Status über Googles User Messaging Platform und zeigt erforderliche Einwilligungsdialoge. Verfügbare Datenschutzoptionen kannst du über „Werbe-Datenschutz“ auf der Startseite oder im Freischaltdialog erneut öffnen. Einwilligungsabhängige Verarbeitung setzt die entsprechende Einwilligung voraus.</p>
         <p>Du kannst eine Einwilligung für die Zukunft über die verfügbaren Werbe-Datenschutzoptionen ändern oder widerrufen. Die Rechtmäßigkeit der bis dahin erfolgten Verarbeitung bleibt unberührt. Abhängig von Region und Datenschutzentscheidung können eingeschränkte Anzeigen oder keine Anzeigen verfügbar sein. Kostenlose Zeichenfunktionen und gespeicherte Projekte bleiben nutzbar; eine werbebasierte Freischaltung kann ohne verfügbare Anzeige ausbleiben.</p>
@@ -372,6 +461,83 @@
         <p>Die öffentliche Datenschutz-Webseite wird über GitHub Pages bereitgestellt. Beim Aufruf verarbeitet GitHub technische Daten, insbesondere deine IP-Adresse, für die Bereitstellung und Sicherheit des Dienstes. Der Seitenaufruf ist von der lokalen Anzeige der Erklärung in der App zu unterscheiden.</p>
         <p>Die Webseite selbst enthält keine von uns eingebundenen Werbe- oder Analyse-Skripte. Unser Interesse an ihrer Bereitstellung ist die sichere und öffentlich zugängliche Information über die Datenverarbeitung (Art. 6 Abs. 1 lit. f DSGVO). Weitere Angaben zur Verarbeitung und zu internationalen Übermittlungen durch GitHub findest du in dessen Datenschutzerklärung.</p>
         <p><a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub-Datenschutzerklärung</a></p>
+        <p><a href="mailto:mindoro.evolution@gmail.com">Datenschutz- oder Löschanfrage per E-Mail</a></p>
+        <p><a href="https://mindoroevo.github.io/mindoro_imp/impressum.html" target="_blank" rel="noopener noreferrer">Impressum</a></p>
+      </section>
+
+      <section class="section" id="terms-de" lang="de" aria-labelledby="title-terms-de">
+        <h2 id="title-terms-de">Deutsch – AGB / Nutzungsbedingungen</h2>
+        <p>Diese Bedingungen regeln die Nutzung der App Mindoro Pixel Studio.</p>
+        <p>Anbieter der App ist Mindoro Evolution – Einzelunternehmen, Inhaber David Albrecht. Anschrift und Kontakt stehen im Impressum. Diese Bedingungen gelten, soweit sie wirksam vereinbart wurden. Vor einem neuen Pro-Kauf kannst du sie einsehen und ihrer Geltung ausdrücklich zustimmen; bestehende Rechte werden dadurch nicht rückwirkend eingeschränkt.</p>
+        <h3>1. Gegenstand</h3>
+        <p>Mindoro Pixel Studio ist ein kreatives Werkzeug zur Erstellung, Bearbeitung und zum Export von Pixelgrafiken, Animationen, Referenzprojekten und verwandten Projektdateien.</p>
+
+        <h3>2. Zulässige Nutzung</h3>
+        <ul>
+          <li>Nutzung für private, kreative, schulische oder geschäftliche Projekte im rechtlich zulässigen Rahmen</li>
+          <li>keine Nutzung für rechtswidrige, beleidigende oder rechtsverletzende Inhalte</li>
+          <li>keine missbräuchliche Verwendung zur Umgehung technischer oder rechtlicher Schutzmechanismen</li>
+        </ul>
+
+        <h3>3. Rechte an Inhalten</h3>
+        <p>Du bleibst für die Inhalte verantwortlich, die du mit der App erstellst, importierst, speicherst oder exportierst.</p>
+        <p>Rechte an deinen eigenen Werken verbleiben bei dir. Allein durch die Nutzung der App überträgst du uns keine Verwertungsrechte an deinen Projekten. Rechte Dritter und die Lizenzbedingungen verwendeter Vorlagen bleiben zu beachten.</p>
+        <p>Du stellst sicher, dass du an verwendeten Vorlagen, Bildern, Marken oder sonstigen Inhalten die erforderlichen Rechte besitzt.</p>
+
+        <h3>4. Nutzungsrecht an der App</h3>
+        <p>Dir wird ein einfaches, nicht ausschließliches und nicht übertragbares Recht eingeräumt, die App im Rahmen dieser Bedingungen zu nutzen.</p>
+        <p>Soweit gesetzlich nicht ausdrücklich erlaubt, ist insbesondere eine Weiterveräußerung, Vermietung oder unzulässige Dekompilierung der App unzulässig.</p>
+
+        <h3>5. Verfügbarkeit und Änderungen</h3>
+        <p>Die App wird in ihrer jeweils aktuellen Fassung bereitgestellt. Gesetzliche Rechte, insbesondere gesetzlich erforderliche Aktualisierungen bei entgeltlich bereitgestellten digitalen Produkten, bleiben unberührt.</p>
+        <p>Funktionen, Benutzeroberfläche und unterstützte Plattformen können aus triftigen Gründen, insbesondere aus Sicherheits-, Rechts-, Kompatibilitäts- oder Missbrauchsschutzgründen, weiterentwickelt oder geändert werden, sofern dadurch keine zusätzlichen Kosten entstehen und die gesetzlichen Informations- und Verbraucherrechte gewahrt werden.</p>
+        <p>Entgeltlich erworbene Freischaltungen bleiben in dem beim Kauf beschriebenen Umfang erhalten, soweit keine gesetzlich zulässige Änderung erfolgt.</p>
+
+        <h3>6. Pro Lifetime, Erweiterungspakete, Creator-Codes und Käufe</h3>
+        <p>Einzelne Funktionen können als optionale kostenpflichtige Zusatzfunktionen angeboten werden. Ein Anspruch auf einen kostenlosen Zugang zu solchen Zusatzfunktionen besteht nicht.</p>
+        <p>Auf Android können ausgewählte Funktionen alternativ durch freiwillige Anzeigen freigeschaltet werden. Vor dem Ansehen wird der genaue Umfang angezeigt: ein Arbeitsbereich für die App-Sitzung oder ein erweiterter Export. Exportfreigaben werden erst nach erfolgreichem Speichern verbraucht. Anzeigenverfügbarkeit ist nicht garantiert; Grundfunktionen und gespeicherte Projekte bleiben ohne Ansehen einer Anzeige nutzbar. Pro enthält keine Werbung.</p>
+        <p>Pro Lifetime ist ein einmaliger, nicht verbrauchbarer In-App-Kauf über Google Play. Er schaltet die beim Kauf in der App oder im Store als enthalten beschriebenen Pro-Funktionen dauerhaft frei; regelmäßige Folgezahlungen fallen nicht an.</p>
+        <p>Neue, klar separat angebotene Erweiterungspakete oder zusätzliche Inhalte sind nicht automatisch Bestandteil von Pro Lifetime, es sei denn, dies wird beim jeweiligen Angebot ausdrücklich angegeben.</p>
+        <p>Abonnements werden derzeit nicht neu angeboten. Für bereits vor der Umstellung abgeschlossene Abonnements gelten bis zu ihrer Beendigung die beim Abschluss angezeigten Bedingungen.</p>
+        <p>Creator-Codes, creator-bezogene Rabatte, Promotions oder Bonusmodelle sind freiwillige Zusatzangebote. Es besteht kein Anspruch auf dauerhafte Verfügbarkeit, unveränderte Konditionen oder eine jederzeitige Einlösbarkeit.</p>
+        <p>Der Anbieter ist berechtigt, Creator-Codes, Rabattmodelle oder Bonusmodelle aus sachlichen Gründen anzupassen, zu beenden, zu sperren oder technisch zu prüfen, insbesondere bei Missbrauch, Fehlern, unrichtiger Zuordnung oder Änderung des Angebotsmodells.</p>
+        <p>Maßgeblich für Preis und Umfang eines In-App-Kaufs sind die vor dem Kauf in der App und bei Google Play angezeigten Angaben. Die Wiederherstellung eines Einmalkaufs erfolgt mit dem Google-Konto, über das der Kauf getätigt wurde, soweit Google Play die Kaufhistorie bereitstellt.</p>
+        <p>Soweit Käufe, Wiederherstellungen, Erstattungen oder bereits bestehende Abonnements über einen App Store abgewickelt werden, gelten hierfür ergänzend die Vertrags-, Zahlungs- und Rückerstattungsbedingungen des jeweiligen Plattformbetreibers.</p>
+
+        <h3>7. Haftung</h3>
+        <p>Die Haftung richtet sich nach den gesetzlichen Vorschriften. Diese Bedingungen enthalten keine darüber hinausgehenden Haftungsausschlüsse oder Haftungsbeschränkungen.</p>
+        <p>Du solltest wichtige Projekte und Exporte eigenständig sichern. Eine lückenlose Verfügbarkeit oder absolute Datenverlustfreiheit kann technisch nicht garantiert werden.</p>
+
+        <h3>8. Externe Dienste und Links</h3>
+        <p>Für externe Webseiten, Plattformen und Dienste gelten die Bedingungen ihrer jeweiligen Anbieter. Unsere eigenen gesetzlichen Pflichten und deine gesetzlichen Ansprüche bleiben davon unberührt.</p>
+        <p>Dies betrifft insbesondere App-Stores, geteilte Exportziele, Store-Seiten zu Premium-Angeboten und das verlinkte Impressum.</p>
+
+        <h3>9. Verbraucherschutz</h3>
+        <p>Zwingende gesetzliche Rechte von Verbraucherinnen und Verbrauchern, insbesondere Rechte bei Mängeln, erforderlichen Aktualisierungen und Änderungen digitaler Produkte, bleiben unberührt.</p>
+        <p>Informationen zu Widerruf und Erstattungen findest du über den gleichnamigen Link im Pro-Dialog und auf unserer Rechtliches-Webseite. Gesetzliche Ansprüche werden nicht durch Werbefreischaltungen, AGB-Zustimmung oder die Nutzung der App ausgeschlossen.</p>
+        <p>Wir sind zur Teilnahme an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle weder verpflichtet noch bereit. Der Rechtsweg bleibt offen.</p>
+        <p>Sollten einzelne Bestimmungen dieser Nutzungsbedingungen unwirksam sein, gelten die gesetzlichen Regelungen.</p>
+
+        <p><a href="https://mindoroevo.github.io/mindoro_imp/impressum.html" target="_blank" rel="noopener noreferrer">Impressum</a></p>
+      </section>
+
+      <section class="section" id="withdrawal-de" lang="de" aria-labelledby="title-withdrawal-de">
+        <h2 id="title-withdrawal-de">Deutsch – Widerruf und Erstattungen</h2>
+        <p>Pro wird in dieser App ausschließlich über Google Play gekauft. Hier findest du Informationen zu deinen Rechten und den zuständigen Kontaktwegen.</p>
+        <h3>1. Kauf über Google Play</h3>
+        <p>Für den Google-Play-Kauf gelten die regionalen Play-Bedingungen und Kaufunterlagen. Im EWR nennt Google Commerce Limited sich als Vertragspartner für dort angebotene Inhalte. Die Angaben zu deinem konkreten Kauf findest du im Bestellbeleg.</p>
+        <p><a href="https://play.google.com/intl/ALL_de/about/play-terms/" target="_blank" rel="noopener noreferrer">Google Play: Kaufbedingungen</a></p>
+
+        <h3>2. Gesetzliches Widerrufsrecht</h3>
+        <p>Verbrauchern steht bei Fernabsatzverträgen über digitale Inhalte grundsätzlich ein 14-tägiges Widerrufsrecht zu. Bei kostenpflichtigen digitalen Inhalten kann es mit Beginn der Bereitstellung vorzeitig erlöschen, wenn du vorher ausdrücklich dem Beginn vor Fristablauf zugestimmt und deine Kenntnis des Rechtsverlusts bestätigt hast und die gesetzlich erforderliche Vertragsbestätigung bereitgestellt wurde. Maßgeblich sind die gesetzlichen Voraussetzungen und der konkrete Kaufablauf.</p>
+        <p>Die AGB-Zustimmung in unserer App ist keine Zustimmung zu personalisierter Werbung und kein Verzicht auf dein Widerrufsrecht. Etwaige Erklärungen zum sofortigen Beginn werden gesondert im Kaufablauf behandelt.</p>
+        <p><a href="https://www.gesetze-im-internet.de/bgb/__356.html" target="_blank" rel="noopener noreferrer">§ 356 BGB</a></p>
+
+        <h3>3. Widerruf oder Erstattung anfragen</h3>
+        <p>Nutze für deinen Google-Play-Kauf den nachfolgenden Erstattungsweg oder den im Kaufbeleg angegebenen Kontakt. Wenn du Hilfe bei der Zuordnung oder technischen Problemen brauchst, erreichst du uns unter mindoro.evolution@gmail.com. Teile höchstens die benötigten Bestellangaben mit, keine Passwörter oder Kauf-Token.</p>
+        <p>Zusätzliche Erstattungsmöglichkeiten von Google Play ersetzen keine gesetzlichen Rechte. Gesetzliche Ansprüche wegen Mängeln bleiben bestehen. Außerhalb des EWR richten sich Rechte und Kontaktwege zusätzlich nach den anwendbaren örtlichen Regeln. Eine Erstattungsanfrage garantiert keine Erstattung.</p>
+        <p><a href="https://support.google.com/googleplay/answer/2479637?hl=de" target="_blank" rel="noopener noreferrer">Google Play: Erstattung und Kontakt</a></p>
+
         <p><a href="https://mindoroevo.github.io/mindoro_imp/impressum.html" target="_blank" rel="noopener noreferrer">Impressum</a></p>
       </section>
 
