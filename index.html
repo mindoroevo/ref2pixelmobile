@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Privacy Policy | Ref2Pixel</title>
+    <title>Privacy Policy | Mindoro Pixel Studio</title>
     <meta
       name="description"
-      content="Privacy Policy for the Ref2Pixel app by Mindoro Evolution – David Albrecht."
+      content="Privacy Policy for the Mindoro Pixel Studio app by Mindoro Evolution – David Albrecht."
     />
     <style>
       :root {
@@ -188,195 +188,194 @@
   <body>
     <main>
       <section class="hero">
-        <span class="eyebrow">Ref2Pixel</span>
-        <h1>Privacy Policy</h1>
-        <p class="lead">
-          This privacy policy applies to the Ref2Pixel app. Ref2Pixel is designed to work locally on
-          your device. In the current version, no personal data is transmitted to the provider's own
-          servers.
-        </p>
-
-        <div class="meta">
-          <div class="meta-card">
-            <strong>Data Controller</strong>
-            Mindoro Evolution – Sole Proprietorship<br />
-            Owner: David Albrecht<br />
-            Jüchener Weg 49<br />
-            40547 Düsseldorf, Germany
-          </div>
-          <div class="meta-card">
-            <strong>Contact</strong>
-            <a href="mailto:mindoro.evolution@gmail.com">mindoro.evolution@gmail.com</a>
-          </div>
-          <div class="meta-card">
-            <strong>Imprint</strong>
-            <a href="https://mindoroevo.github.io/mindoro_imp/impressum.html" target="_blank" rel="noreferrer">mindoroevo.github.io/mindoro_imp/impressum.html</a>
-          </div>
-        </div>
+        <span class="eyebrow">Mindoro Pixel Studio</span>
+        <h1>Privacy Policy <span lang="de">/ Datenschutz</span></h1>
+        <p class="lead">Mindoro Pixel Studio · Mindoro Evolution – David Albrecht</p>
+        <nav class="lang-note" aria-label="Language / Sprache">
+          <a href="#en" lang="en">English</a> · <a href="#de" lang="de">Deutsch</a>
+        </nav>
+        <p>Updated / Stand: <time datetime="2026-09-06">2026-09-06</time></p>
       </section>
 
-      <section class="section">
-        <h2>English</h2>
-
+      <section class="section" id="en" lang="en" aria-labelledby="title-en">
+        <h2 id="title-en">English – Privacy Policy</h2>
+        <p>This privacy policy applies to Mindoro Pixel Studio (formerly Ref2Pixel) and its privacy website. Updated: September 6, 2026.</p>
+        <p>Your artwork is generally processed locally. However, the app uses Google Firebase and Google Play for technical status requests and purchases, and Google AdMob and the User Messaging Platform (UMP) for advertising and privacy choices. Processing depends on the platform, features used, Pro status and your privacy choices.</p>
         <h3>1. Data controller</h3>
-        <p>
-          The controller responsible for this app is Mindoro Evolution – sole proprietorship, owner
-          David Albrecht, Jüchener Weg 49, 40547 Düsseldorf, Germany. If you have privacy-related
-          questions, please use the email address above or the contact details in the imprint.
-        </p>
+        <p>The controller is Mindoro Evolution – sole proprietorship, owner David Albrecht, Jüchener Weg 49, 40547 Düsseldorf, Germany.</p>
+        <p>For privacy questions and rights requests, contact mindoro.evolution@gmail.com. Further provider details are available in the linked imprint.</p>
 
-        <h3>2. What data is processed in the app</h3>
+        <h3>2. Data processed locally on the device</h3>
+        <p>The app does not automatically upload your project images to our Firebase services or to AdMob. Exporting and sharing are initiated by you; your chosen recipient may process shared files under its own rules.</p>
+        <p>No separate app account is required. Local settings, a randomly generated installation identifier and unlocks are kept in device storage.</p>
         <ul>
           <li>locally stored projects, layers, frames and palettes</li>
           <li>local app settings such as language, display and workflow options</li>
-          <li>locally stored information about the unlock status of free, tester or premium features</li>
+          <li>locally stored information about the unlock status of free or premium features</li>
           <li>files intentionally exported by the user, such as PNG, GIF, JSON or spritesheets</li>
         </ul>
-        <p>
-          As a rule, this data stays on the device unless you choose to export, share or delete it yourself.
-        </p>
 
-        <h3>3. Purpose of processing</h3>
+        <h3>3. Firebase- and Google Play-related processing</h3>
+        <p>At app startup, including free use, the premium context is requested through Firebase Cloud Functions using the installation identifier. Status and assignment data is processed in Cloud Firestore. Network requests also involve technical connection data such as the IP address.</p>
+        <p>Purchase data is sent to our Firebase backend and Google Play to verify and restore one-time Pro purchases and existing subscriptions. Premium records store, among other information, purchase-token hashes for attribution. Our app backend does not receive payment details such as credit card numbers through this process.</p>
         <ul>
-          <li>providing the app's drawing, storage and export features</li>
-          <li>restoring your projects and working state on the same device</li>
-          <li>displaying unlock status, premium notices and information about the provider's own offers inside the app</li>
+          <li>a random installation identifier to associate premium status; this is not the Android advertising ID</li>
+          <li>creator code assignments and offer information, where such assignments or offers exist</li>
+          <li>purchase and subscription data such as product ID, offer ID, purchase and transaction identifiers, purchase token, purchase time, expiry time and validation state</li>
+          <li>technical abuse prevention and rate-limit information</li>
+        </ul>
+
+        <h3>4. Purpose and legal basis of processing</h3>
+        <p>Where processing is necessary to provide the app or premium features, it is based on Art. 6(1)(b) GDPR.</p>
+        <p>Where technical protection, abuse prevention or system stability are necessary, processing is based on Art. 6(1)(f) GDPR. Our legitimate interest is secure operation and protection against unauthorized use.</p>
+        <p>Consent-dependent advertising processing is based on Art. 6(1)(a) GDPR. Consent is also obtained where required for storing or accessing information on your device. Technically necessary storage serves the function you requested.</p>
+        <ul>
+          <li>providing the app&#39;s drawing, storage and export features</li>
+          <li>providing and managing premium features, creator codes and discount models</li>
+          <li>verifying, assigning and restoring purchases and subscriptions</li>
+          <li>abuse prevention, technical protection and error prevention</li>
           <li>writing files to the storage location selected by the user</li>
         </ul>
 
-        <h3>4. Device permissions</h3>
-        <p>
-          On older Android versions, Ref2Pixel uses storage permissions only when files need to be exported
-          to public device folders. These permissions are not used to read personal content for advertising,
-          tracking or analytics purposes.
-        </p>
+        <h3>5. Service providers used</h3>
+        <p>We use Google Firebase for backend and status functions and Google Play for purchases. Advertising also involves Google AdMob, UMP and the advertising partners listed in the applicable privacy message. You can review the partners and purposes in the ad privacy options.</p>
+        <p>Google services may process data outside the EEA, particularly in the United States. Google describes its service-specific transfer mechanisms and safeguards, such as adequacy decisions and standard contractual clauses, in the information linked below. Our Cloud Functions are configured for europe-west3; this does not mean that all Google processing takes place exclusively in Germany.</p>
+        <p><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a></p>
+        <p><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Privacy at Firebase</a></p>
+        <p><a href="https://policies.google.com/privacy/frameworks" target="_blank" rel="noopener noreferrer">Google: international data transfers</a></p>
 
-        <h3>5. Premium notices and own advertising</h3>
-        <p>
-          The app may display its own non-personalized notices about Ref2Pixel Premium, feature unlocks,
-          updates or other offers of the provider. No third-party ad networks, no personalized advertising
-          and no tracking or analytics SDKs are used inside the app for this purpose.
-        </p>
-        <p>
-          There are no in-app accounts, no own cloud sync and no transmission to the provider's own backend servers.
-        </p>
+        <h3>6. Device permissions</h3>
+        <p>On older Android versions, Mindoro Pixel Studio uses storage permissions only when files need to be exported to public device folders.</p>
+        <p>These permissions are not used to read personal content for advertising, tracking or analytics purposes.</p>
 
-        <h3>6. External platforms and links</h3>
-        <p>
-          If you install or update the app via an app store, the respective platform operators process certain
-          data under their own responsibility.
-        </p>
-        <p>
-          If a premium subscription or an in-app purchase is offered, concluded, restored or managed through an
-          app store, billing and purchase processing are also carried out under the responsibility of the
-          respective platform operator.
-        </p>
-        <p>
-          The same applies when you open external websites or store pages from the app, especially the linked
-          imprint or pages about the provider's own offers.
-        </p>
+        <h3>7. Premium, creator codes and external platforms</h3>
+        <p>If you install or update the app via an app store, the respective platform operators process certain data under their own responsibility.</p>
+        <p>If a premium subscription or an in-app purchase is offered, concluded, restored or managed through an app store, billing and purchase processing are also carried out under the responsibility of the respective platform operator.</p>
+        <p>Creator codes, discount-related offers and premium assignments may be technically checked, updated, locked or ended where necessary for contract performance, abuse prevention or error correction.</p>
+        <p>The same applies when you open external websites or store pages from the app, especially the linked imprint or pages about the provider&#39;s own offers.</p>
 
-        <h3>7. Storage period and control</h3>
+        <h3>8. Storage period and control</h3>
+        <p>Uninstalling or clearing local app data does not automatically delete purchase data at Google Play or status data in our backend. Please contact us to request deletion of server-side data. Further retention may be necessary where statutory retention obligations or the establishment, exercise or defence of legal claims require it.</p>
+        <p>UMP stores privacy choices and updates them when necessary. Retention of data processed by Google and other advertising partners also depends on their respective purposes and privacy information.</p>
         <ul>
           <li>local project data stays on the device until you delete it yourself or uninstall the app</li>
           <li>exported files remain in the storage location you selected until you remove them yourself</li>
-          <li>you can also delete local app data through your device's system settings</li>
+          <li>premium, creator and purchase status data is only stored as long as necessary for provision, assignment, restoration or abuse prevention</li>
+          <li>you can also delete local app data through your device&#39;s system settings</li>
         </ul>
 
-        <h3>8. Your rights</h3>
-        <p>
-          Where applicable under data protection law, you may in particular have rights of access,
-          rectification, erasure, restriction of processing and the right to lodge a complaint with a
-          supervisory authority. For such requests, please use the contact details above.
-        </p>
+        <h3>9. Advertising, consent and optional unlocks</h3>
+        <p>The free Android version uses Google AdMob for home-screen banners, occasional fullscreen ads after successful manual saves, and optional ads that unlock individual steps. Autosave never triggers ads. No ads are requested while Pro access is active.</p>
+        <p>Depending on the advertising mode and settings, the Google Mobile Ads SDK processes IP addresses (also to infer an approximate location), device and advertising identifiers such as Android advertising ID and app set ID, account-related identifiers where applicable, app and ad interactions, and diagnostic and performance data. This serves ad delivery, advertising measurement and fraud prevention. Our ad integration does not send project images to AdMob.</p>
+        <p>Before requesting ads, the app checks Google&#39;s User Messaging Platform status and shows required consent forms. Available privacy options can be reopened via Ad privacy on the home screen or unlock dialog. Consent-dependent processing requires the corresponding consent.</p>
+        <p>You can change or withdraw consent for the future through the available ad privacy options. This does not affect the lawfulness of processing before withdrawal. Depending on your region and choices, limited ads or no ads may be available. Free drawing tools and saved projects remain usable; an ad-based unlock may be unavailable if no ad is available.</p>
+        <p>For users in applicable US states, regionally available privacy options may in particular allow opting out of the sale or sharing of personal information for targeted advertising. You can contact us about other applicable privacy rights.</p>
+        <p>Workspace ad passes are kept separately from purchases in session storage and expire with the app session. Advanced export passes are consumed after a successful export. Saved content is kept. The current app does not integrate a separate Google Analytics or Firebase Analytics SDK; the advertising SDK still performs its own measurement and diagnostics as described above.</p>
+        <p><a href="https://developers.google.com/admob/android/privacy/play-data-disclosure" target="_blank" rel="noopener noreferrer">Google: advertising SDK data processing</a></p>
+        <p><a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">Google: data use on partner services</a></p>
 
-        <div class="lang-note">
-          The same privacy policy is provided below in German.
-        </div>
+        <h3>10. Your rights</h3>
+        <p>Subject to the applicable legal conditions, you have rights of access, rectification, erasure, restriction and data portability. You may object to processing based on legitimate interests on grounds relating to your particular situation; you may object to direct marketing at any time.</p>
+        <p>You may complain to a data protection supervisory authority, particularly in your place of residence, work or an alleged infringement. The State Commissioner for Data Protection and Freedom of Information North Rhine-Westphalia is a contact point for our registered location.</p>
+        <p>For such requests, please use the contact details listed in the imprint.</p>
 
-        <div class="divider"></div>
+        <h3>11. Visiting the privacy website</h3>
+        <p>The public privacy website is hosted on GitHub Pages. When you visit it, GitHub processes technical data, particularly your IP address, to provide and secure the service. Visiting the website is separate from viewing this policy locally in the app.</p>
+        <p>The website itself contains no advertising or analytics scripts added by us. Our interest in providing it is secure, publicly accessible information about data processing (Art. 6(1)(f) GDPR). GitHub&#39;s privacy statement provides further information about its processing and international transfers.</p>
+        <p><a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub Privacy Statement</a></p>
+        <p><a href="https://mindoroevo.github.io/mindoro_imp/impressum.html" target="_blank" rel="noopener noreferrer">Imprint</a></p>
+      </section>
 
-        <h2>Deutsch</h2>
-
+      <section class="section" id="de" lang="de" aria-labelledby="title-de">
+        <h2 id="title-de">Deutsch – Datenschutzerklärung</h2>
+        <p>Diese Datenschutzerklärung gilt für Mindoro Pixel Studio (früher Ref2Pixel) und die zugehörige Datenschutz-Webseite. Stand: 06.09.2026.</p>
+        <p>Deine Grafikprojekte werden grundsätzlich lokal verarbeitet. Die App nutzt jedoch Google Firebase und Google Play für technische Statusabfragen und Käufe sowie Google AdMob und die User Messaging Platform (UMP) für Werbung und Datenschutzentscheidungen. Welche Verarbeitung stattfindet, hängt von Plattform, genutzten Funktionen, Pro-Status und Datenschutzentscheidungen ab.</p>
         <h3>1. Verantwortliche Stelle</h3>
-        <p>
-          Verantwortlich für diese App ist Mindoro Evolution – Einzelunternehmen, Inhaber David Albrecht,
-          Jüchener Weg 49, 40547 Düsseldorf, Deutschland. Wenn du datenschutzbezogene Fragen hast,
-          nutze bitte die oben genannte E-Mail-Adresse oder die Angaben im Impressum.
-        </p>
+        <p>Verantwortlich ist Mindoro Evolution – Einzelunternehmen, Inhaber David Albrecht, Jüchener Weg 49, 40547 Düsseldorf, Deutschland.</p>
+        <p>Kontakt für Datenschutzfragen und die Ausübung deiner Rechte: mindoro.evolution@gmail.com. Weitere Anbieterangaben stehen im verlinkten Impressum.</p>
 
-        <h3>2. Welche Daten in der App verarbeitet werden</h3>
+        <h3>2. Lokal auf dem Gerät verarbeitete Daten</h3>
+        <p>Die App lädt deine Projektbilder nicht automatisch zu unseren Firebase-Diensten oder zu AdMob hoch. Exportieren und Teilen erfolgen auf deine Veranlassung; der von dir gewählte Empfänger verarbeitet die geteilten Dateien gegebenenfalls nach eigenen Regeln.</p>
+        <p>Für die Nutzung ist kein eigenes App-Konto erforderlich. Lokale Einstellungen, eine zufällig erzeugte Installationskennung und Freischaltungen werden im Gerätespeicher abgelegt.</p>
         <ul>
           <li>lokal gespeicherte Projekte, Ebenen, Frames und Paletten</li>
           <li>lokale App-Einstellungen wie Sprache, Anzeige- und Arbeitsoptionen</li>
-          <li>lokal gespeicherte Hinweise zum Freischaltstatus von Gratis-, Tester- oder Premium-Funktionen</li>
+          <li>lokal gespeicherte Hinweise zum Freischaltstatus von Gratis- oder Premium-Funktionen</li>
           <li>vom Nutzer bewusst exportierte Dateien wie PNG, GIF, JSON oder Spritesheets</li>
         </ul>
-        <p>
-          Diese Daten bleiben grundsätzlich auf dem Gerät, solange du sie nicht selbst exportierst,
-          teilst oder löschst.
-        </p>
 
-        <h3>3. Zweck der Verarbeitung</h3>
+        <h3>3. Firebase- und Google-Play-bezogene Verarbeitung</h3>
+        <p>Bereits beim App-Start wird der Premium-Kontext mit der Installationskennung über Firebase Cloud Functions abgefragt, auch bei kostenloser Nutzung. Status- und Zuordnungsdaten werden in Cloud Firestore verarbeitet. Bei Netzwerkzugriffen fallen außerdem technische Verbindungsdaten wie die IP-Adresse an.</p>
+        <p>Zur Prüfung und Wiederherstellung von Pro-Einmalkäufen sowie bestehenden Abonnements werden Kaufdaten an unser Firebase-Backend und Google Play übermittelt. Im Premium-Datensatz werden unter anderem Hashwerte von Kauf-Token zur Zuordnung gespeichert. Zahlungsdaten wie Kreditkartennummern erhält unser App-Backend dabei nicht.</p>
+        <ul>
+          <li>eine zufällige Installationskennung zur Zuordnung des Premium-Status; sie ist nicht die Android-Werbe-ID</li>
+          <li>Creator-Code-Zuordnung und Angebotsinformationen, sofern solche Zuordnungen oder Angebote bestehen</li>
+          <li>Kauf- und Abo-Daten, etwa Produkt-ID, Angebots-ID, Kauf- und Transaktionskennung, Kauf-Token, Kaufzeitpunkt, Ablaufzeitpunkt und Validierungsstatus</li>
+          <li>technische Missbrauchsschutz- und Rate-Limit-Informationen</li>
+        </ul>
+
+        <h3>4. Zweck und Rechtsgrundlagen der Verarbeitung</h3>
+        <p>Soweit die Verarbeitung zur Bereitstellung der App oder von Premium-Funktionen erforderlich ist, erfolgt sie auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO.</p>
+        <p>Soweit eine technische Absicherung, Missbrauchsvermeidung oder Systemstabilität erforderlich ist, erfolgt die Verarbeitung auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse besteht am sicheren Betrieb und am Schutz vor unberechtigter Nutzung.</p>
+        <p>Einwilligungsabhängige Werbeverarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO. Soweit für das Speichern oder Auslesen von Informationen auf deinem Gerät eine Einwilligung erforderlich ist, wird diese ebenfalls eingeholt. Technisch notwendige Speicherung dient der von dir angeforderten Funktion.</p>
         <ul>
           <li>Bereitstellung der Zeichen-, Speicher- und Exportfunktionen der App</li>
-          <li>Wiederherstellung deiner Projekte und Arbeitsstände auf demselben Gerät</li>
-          <li>Anzeige von Freischaltstatus, Premium-Hinweisen und eigenen Produktinformationen innerhalb der App</li>
+          <li>Bereitstellung und Verwaltung von Premium-Funktionen, Creator-Codes und Rabattmodellen</li>
+          <li>Prüfung, Zuordnung und Wiederherstellung von Käufen und Abonnements</li>
+          <li>Missbrauchsschutz, technische Absicherung und Fehlervermeidung</li>
           <li>Ausgabe von Dateien in den vom Nutzer gewählten Speicherort</li>
         </ul>
 
-        <h3>4. Berechtigungen auf dem Gerät</h3>
-        <p>
-          Ref2Pixel verwendet auf älteren Android-Versionen Speicherberechtigungen nur dann, wenn Dateien
-          in öffentliche Geräteordner exportiert werden sollen. Die Berechtigungen dienen nicht zum
-          Auslesen persönlicher Inhalte zu Werbe-, Tracking- oder Analysezwecken.
-        </p>
+        <h3>5. Eingesetzte Dienstleister</h3>
+        <p>Wir nutzen Google Firebase für Backend- und Statusfunktionen sowie Google Play für Käufe. Bei Werbung kommen Google AdMob, UMP und die in der jeweiligen Datenschutzmitteilung aufgeführten Werbepartner hinzu. Die Partner und Zwecke kannst du in den Werbe-Datenschutzoptionen einsehen.</p>
+        <p>Google-Dienste können Daten außerhalb des EWR, insbesondere in den USA, verarbeiten. Google beschreibt die je nach Dienst eingesetzten Übermittlungsgrundlagen und Schutzmechanismen, etwa Angemessenheitsbeschlüsse und Standardvertragsklauseln, in den unten verlinkten Informationen. Unsere Cloud Functions sind für europe-west3 konfiguriert; dies bedeutet nicht, dass sämtliche Google-Verarbeitung ausschließlich in Deutschland stattfindet.</p>
+        <p><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google-Datenschutzerklärung</a></p>
+        <p><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Datenschutz bei Firebase</a></p>
+        <p><a href="https://policies.google.com/privacy/frameworks" target="_blank" rel="noopener noreferrer">Google: internationale Datenübermittlungen</a></p>
 
-        <h3>5. Premium-Hinweise und eigene Werbung</h3>
-        <p>
-          Die App kann eigene, nicht personalisierte Hinweise zu Ref2Pixel Premium,
-          Funktionsfreischaltungen, Updates oder weiteren eigenen Angeboten des Anbieters anzeigen.
-          Dabei werden innerhalb der App keine Drittanbieter-Werbenetzwerke, keine personalisierte Werbung
-          und keine Tracking- oder Analyse-SDKs eingesetzt.
-        </p>
-        <p>
-          Es gibt keine In-App-Konten, keine eigene Cloud-Synchronisation und keine Übertragung an eigene
-          Backend-Server.
-        </p>
+        <h3>6. Berechtigungen auf dem Gerät</h3>
+        <p>Mindoro Pixel Studio verwendet auf älteren Android-Versionen Speicherberechtigungen nur dann, wenn Dateien in öffentliche Geräteordner exportiert werden sollen.</p>
+        <p>Die Berechtigungen dienen nicht zum Auslesen persönlicher Inhalte zu Werbe-, Tracking- oder Analysezwecken.</p>
 
-        <h3>6. Externe Plattformen und Links</h3>
-        <p>
-          Wenn du die App über einen App Store installierst oder aktualisierst, verarbeiten die jeweiligen
-          Plattformbetreiber bestimmte Daten in eigener Verantwortung.
-        </p>
-        <p>
-          Soweit ein Premium-Abo oder ein In-App-Kauf über einen App Store angeboten, abgeschlossen,
-          wiederhergestellt oder verwaltet wird, erfolgt auch die Zahlungs- und Kaufabwicklung in eigener
-          Verantwortung des jeweiligen Plattformbetreibers.
-        </p>
-        <p>
-          Dasselbe gilt, wenn du aus der App heraus externe Webseiten oder Store-Seiten öffnest,
-          insbesondere das verlinkte Impressum oder Seiten zu eigenen Angeboten des Anbieters.
-        </p>
+        <h3>7. Premium, Creator-Codes und externe Plattformen</h3>
+        <p>Wenn du die App über einen App Store installierst oder aktualisierst, verarbeiten die jeweiligen Plattformbetreiber bestimmte Daten in eigener Verantwortung.</p>
+        <p>Soweit ein Premium-Abo oder ein In-App-Kauf über einen App Store angeboten, abgeschlossen, wiederhergestellt oder verwaltet wird, erfolgt auch die Zahlungs- und Kaufabwicklung in eigener Verantwortung des jeweiligen Plattformbetreibers.</p>
+        <p>Creator-Codes, rabattbezogene Angebote und Premium-Zuordnungen können technisch geprüft, aktualisiert, gesperrt oder beendet werden, soweit dies für die Vertragsdurchführung, Missbrauchsvermeidung oder Fehlerkorrektur erforderlich ist.</p>
+        <p>Dasselbe gilt, wenn du aus der App heraus externe Webseiten oder Store-Seiten öffnest, insbesondere das verlinkte Impressum oder Seiten zu eigenen Angeboten des Anbieters.</p>
 
-        <h3>7. Speicherdauer und Kontrolle</h3>
+        <h3>8. Speicherdauer und Kontrolle</h3>
+        <p>Eine Deinstallation oder das Löschen lokaler App-Daten löscht nicht automatisch Kaufdaten bei Google Play oder Statusdaten in unserem Backend. Für eine Anfrage zur Löschung serverseitiger Daten kontaktiere uns bitte. Soweit gesetzliche Aufbewahrungspflichten oder die Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen entgegenstehen, kann die weitere Speicherung erforderlich sein.</p>
+        <p>Einwilligungsentscheidungen werden durch UMP gespeichert und bei Bedarf aktualisiert. Die Speicherdauer der von Google und weiteren Werbepartnern verarbeiteten Daten richtet sich zusätzlich nach deren jeweiligen Zwecken und Datenschutzinformationen.</p>
         <ul>
           <li>lokale Projektdaten bleiben auf dem Gerät, bis du sie selbst löschst oder die App deinstallierst</li>
           <li>exportierte Dateien bleiben an dem von dir gewählten Speicherort, bis du sie selbst entfernst</li>
+          <li>Premium-, Creator- und Kaufstatusdaten werden nur so lange gespeichert, wie dies für die Bereitstellung, Zuordnung, Wiederherstellung oder Missbrauchsvermeidung erforderlich ist</li>
           <li>du kannst lokale App-Daten außerdem über die Systemeinstellungen deines Geräts löschen</li>
         </ul>
 
-        <h3>8. Deine Rechte</h3>
-        <p>
-          Soweit datenschutzrechtlich anwendbar, hast du insbesondere Rechte auf Auskunft, Berichtigung,
-          Löschung, Einschränkung der Verarbeitung und Beschwerde bei einer Aufsichtsbehörde.
-          Für Anfragen nutze bitte die oben genannten Kontaktdaten.
-        </p>
+        <h3>9. Werbung, Einwilligung und freiwillige Freischaltungen</h3>
+        <p>Die kostenlose Android-Version verwendet Google AdMob für Banner auf der Startseite, gelegentliche Vollbildanzeigen nach erfolgreichem manuellem Speichern sowie freiwillige Anzeigen zur Freischaltung einzelner Arbeitsschritte. Automatisches Speichern löst keine Anzeige aus. Mit aktivem Pro-Status werden keine Anzeigen angefordert.</p>
+        <p>Das Google Mobile Ads SDK verarbeitet je nach Anzeigenmodus und Einstellungen IP-Adressen (auch zur Ableitung einer ungefähren Position), Geräte- und Werbekennungen wie Android-Werbe-ID und App-Set-ID, gegebenenfalls kontobezogene Kennungen, App- und Anzeigeninteraktionen sowie Diagnose- und Leistungsdaten. Dies dient der Anzeigenbereitstellung, Werbemessung und Betrugsprävention. Projektbilder werden von unserer Werbeintegration nicht an AdMob übermittelt.</p>
+        <p>Vor Anzeigenanfragen prüft die App den Status über Googles User Messaging Platform und zeigt erforderliche Einwilligungsdialoge. Verfügbare Datenschutzoptionen kannst du über „Werbe-Datenschutz“ auf der Startseite oder im Freischaltdialog erneut öffnen. Einwilligungsabhängige Verarbeitung setzt die entsprechende Einwilligung voraus.</p>
+        <p>Du kannst eine Einwilligung für die Zukunft über die verfügbaren Werbe-Datenschutzoptionen ändern oder widerrufen. Die Rechtmäßigkeit der bis dahin erfolgten Verarbeitung bleibt unberührt. Abhängig von Region und Datenschutzentscheidung können eingeschränkte Anzeigen oder keine Anzeigen verfügbar sein. Kostenlose Zeichenfunktionen und gespeicherte Projekte bleiben nutzbar; eine werbebasierte Freischaltung kann ohne verfügbare Anzeige ausbleiben.</p>
+        <p>Für Nutzer in betroffenen US-Bundesstaaten können die regional verfügbaren Datenschutzoptionen insbesondere den Widerspruch gegen den Verkauf oder die Weitergabe personenbezogener Informationen für zielgerichtete Werbung ermöglichen. Anfragen zu weiteren anwendbaren Datenschutzrechten kannst du an unsere Kontaktadresse richten.</p>
+        <p>Werbefreigaben für Arbeitsbereiche werden getrennt vom Kaufstatus im Sitzungsspeicher geführt und enden mit der App-Sitzung. Freigaben für erweiterte Exporte werden nach erfolgreichem Export verbraucht. Gespeicherte Inhalte bleiben erhalten. Die aktuelle App bindet kein separates Google-Analytics- oder Firebase-Analytics-SDK ein; die eigene Mess- und Diagnoseverarbeitung des Werbe-SDKs findet dennoch wie oben beschrieben statt.</p>
+        <p><a href="https://developers.google.com/admob/android/privacy/play-data-disclosure" target="_blank" rel="noopener noreferrer">Google: Datenverarbeitung des Werbe-SDKs</a></p>
+        <p><a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">Google: Datennutzung bei Partnern</a></p>
+
+        <h3>10. Deine Rechte</h3>
+        <p>Soweit die gesetzlichen Voraussetzungen vorliegen, hast du Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und Datenübertragbarkeit. Du kannst einer Verarbeitung auf Grundlage berechtigter Interessen aus Gründen deiner besonderen Situation widersprechen; gegen Direktwerbung besteht ein jederzeitiges Widerspruchsrecht.</p>
+        <p>Du kannst dich bei einer Datenschutzaufsichtsbehörde beschweren, insbesondere an deinem Aufenthaltsort, Arbeitsplatz oder am Ort eines vermuteten Verstoßes. Für unseren Sitz ist die Landesbeauftragte für Datenschutz und Informationsfreiheit Nordrhein-Westfalen eine Anlaufstelle.</p>
+        <p>Für Anfragen nutze bitte die Kontaktdaten im Impressum.</p>
+
+        <h3>11. Aufruf der Datenschutz-Webseite</h3>
+        <p>Die öffentliche Datenschutz-Webseite wird über GitHub Pages bereitgestellt. Beim Aufruf verarbeitet GitHub technische Daten, insbesondere deine IP-Adresse, für die Bereitstellung und Sicherheit des Dienstes. Der Seitenaufruf ist von der lokalen Anzeige der Erklärung in der App zu unterscheiden.</p>
+        <p>Die Webseite selbst enthält keine von uns eingebundenen Werbe- oder Analyse-Skripte. Unser Interesse an ihrer Bereitstellung ist die sichere und öffentlich zugängliche Information über die Datenverarbeitung (Art. 6 Abs. 1 lit. f DSGVO). Weitere Angaben zur Verarbeitung und zu internationalen Übermittlungen durch GitHub findest du in dessen Datenschutzerklärung.</p>
+        <p><a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub-Datenschutzerklärung</a></p>
+        <p><a href="https://mindoroevo.github.io/mindoro_imp/impressum.html" target="_blank" rel="noopener noreferrer">Impressum</a></p>
       </section>
 
-      <footer>
-        Updated: April 2026 · Ref2Pixel Privacy Policy
-      </footer>
+      <footer>Mindoro Pixel Studio · Privacy Policy / Datenschutzerklärung · 2026-09-06</footer>
     </main>
   </body>
 </html>
